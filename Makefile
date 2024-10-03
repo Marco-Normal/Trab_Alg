@@ -1,5 +1,5 @@
 ##
-# Trabalho Alg
+# TSP
 #
 # @file
 # @version 0.1
@@ -20,10 +20,15 @@ main: $(OBJS)
 run:
 	@./main
 
+
+
+
+
 zip:
 	@zip -r main.zip $(IMPLEMETATIONS) $(HEADERS) Makefile
 
 clean:
 	@rm main *.zip *.o
+# end
 
 # end
